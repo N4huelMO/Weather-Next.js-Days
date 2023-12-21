@@ -26,7 +26,9 @@ const CurrentWeather = () => {
         </p>
       </div>
 
-      <p className="mt-5 sm:mt-10 text-5xl font-bold">{weather[0].main}</p>
+      <p className="mt-5 sm:mt-10 text-4xl font-bold capitalize">
+        {weather[0].description}
+      </p>
 
       <p className="mt-3 sm:mt-4">
         Feels like: {feels_like.toFixed()}
